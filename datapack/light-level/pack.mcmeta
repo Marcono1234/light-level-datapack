@@ -1,6 +1,6 @@
 {
-	"pack": {
-		"description": "Allows retrieving light level values",
-		"pack_format": 4
-	}
+    "pack": {
+        "description": "Allows retrieving light level values",
+        "pack_format": 4
+    }
 }

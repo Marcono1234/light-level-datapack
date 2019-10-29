@@ -1,8 +1,8 @@
 {
-	"condition": "location_check",
-	"predicate": {
-		"light": {
-			"light": 3
-		}
-	}
+    "condition": "location_check",
+    "predicate": {
+        "light": {
+            "light": 3
+        }
+    }
 }
