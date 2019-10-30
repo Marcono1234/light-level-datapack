@@ -1,6 +1,11 @@
 {
     "pack": {
         "description": "Allows retrieving light level values",
-        "pack_format": 4
+        "pack_format": 4,
+        "custom": {
+            "author": "Marcono1234",
+            "version": "1.0",
+            "url": "https://github.com/Marcono1234/light-level-datapack"
+        }
     }
 }
