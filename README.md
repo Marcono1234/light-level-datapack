@@ -14,14 +14,15 @@ Should happen automatically when the datapack is (re-)loaded. However, it can al
 
 ### Actions
 #### Get light level
-1. Run for any entity
+1. Run
     ```
     /function marcono1234:light_level/get_light_level
     ```
-2. Afterwards the for that entity the `light_level` score represents the light level where the function was executed
-    ```
-    /scoreboard players get @s light_level
-    ```
+
+Afterwards the fake player `#result` (since v1.1) and if an entity is executing the function that entity (i.e. `@s`) will have the light level value as `light_level` score.
+```
+/scoreboard players get @s light_level
+```
 
 :warning: The light level represents the "visible light (`max(sky-darkening,block)`)". Therefore outside during day it will be 15, making you unable to determine the block light level.
 
